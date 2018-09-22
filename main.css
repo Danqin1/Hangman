@@ -1,0 +1,57 @@
+body
+{
+	background:#000;
+	color:#fff;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+#container
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#obraz
+{
+	display:inline-block;
+	margin-right:20px;
+}
+#alfabet
+{
+	display:inline-block;
+	width:450px;
+	height:280px;
+	padding: 20px;
+	text-align:center;
+}
+#zdanie
+{
+	text-align:center;
+	font-size:60px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.litera
+{
+	width:30px;
+	height:30px;
+	text-align:center;
+	padding:5px;
+	margin:5px;
+	border:3px solid gray;
+	float:left;
+	cursor: pointer;
+	border-radius:20px;
+	font-size:20px;
+}
+.litera:hover
+{
+	background:#666;
+	border:3px solid #444;
+}
+#reset
+{
+	font-size:44px;
+	color:#0d4408;
+	cursor:pointer;
+}
+
